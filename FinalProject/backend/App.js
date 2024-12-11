@@ -7,7 +7,7 @@ var fs = require("fs");
 
 var app = express();
 var port = 3000; // Define your desired port
-var host = "127.0.0.1"; // Define your desired host
+var host = "127.0.0.1"; // Define your desired host.
 
 // Middleware setup
 app.use(cors());
